@@ -1,11 +1,13 @@
 import discord
 import asyncio
 import openpyxl
+import os
 
 
 client = discord.Client()
 
-token = "NzA0MzE5MjUwMTU1NzAwMjI0.XqbvLA.TjN3XSHd2gwu-k8z-uvQ05zPtVI"
+access_token = os.environ["BOT_TOKEN"]
+token = "access_token"
 
 
 @client.event
